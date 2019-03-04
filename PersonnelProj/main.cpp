@@ -3,12 +3,8 @@
 
 #include "stdafx.h"
 #include "sum.h"
+#include "minus.h"
 
-
-int main()
-{
-    switch
-}
 
 int main(int argc, char* argv[])
 {
@@ -29,7 +25,7 @@ int main(int argc, char* argv[])
 	}
 	case 2: // если count = 2
 	{
-		cout << "In development" << endl; // выполнить вычитание
+		cout << minus(a, b) << endl; // выполнить вычитание
 		break;
 	}
 	case 3: // если count = 3
