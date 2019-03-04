@@ -2,10 +2,49 @@
 //
 
 #include "stdafx.h"
+#include "sum.h"
 
 
 int main()
 {
-    return 0;
+    switch
 }
 
+int main(int argc, char* argv[])
+{
+	int count; 
+	double a, b;
+	cout << "Enter 1st number: ";
+	cin >> a;
+	cout << "Enter 2nd number: ";
+	cin >> b;
+	cout << "Choose operation: 1-`+`; 2-`-`; 3-`*`; 4-`/`: ";
+	cin >> count;
+	switch (count) // начало оператора switch
+	{
+	case 1: // если count = 1
+	{
+		sum(a, b); // выполнить сложение
+		break;
+	}
+	case 2: // если count = 2
+	{
+		cout << "In development" << endl; // выполнить вычитание
+		break;
+	}
+	case 3: // если count = 3
+	{
+		cout << "In development" << endl; // выполнить умножение
+		break;
+	}
+	case 4: // если count = 4
+	{
+		cout << "In development" << endl; // выполнить деление
+		break;
+	}
+	default: // если count равно любому другому значению
+		cout << "Incorrect input" << endl;
+	}
+	system("pause");
+	return 0;
+}
