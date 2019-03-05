@@ -1,5 +1,6 @@
 // PersonnelProj.cpp: определяет точку входа для консольного приложения.
 //Added all 4 functions
+//Release 2.0
 
 #include "stdafx.h"
 #include <iostream>
