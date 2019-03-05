@@ -1,11 +1,12 @@
 // PersonnelProj.cpp: определяет точку входа для консольного приложения.
-//
+//Added all 4 functions
 
 #include "stdafx.h"
 #include <iostream>
 #include "sum.h"
 #include "minus.h"
 #include "multiply.h"
+#include "divid.h"
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -37,7 +38,7 @@ int main(int argc, char* argv[])
 	}
 	case 4: // если count = 4
 	{
-		cout << "In development" << endl; // выполнить деление
+		cout << divid(a, b) << endl; // выполнить деление
 		break;
 	}
 	default: // если count равно любому другому значению
