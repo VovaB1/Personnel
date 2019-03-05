@@ -2,9 +2,10 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
 #include "sum.h"
 #include "minus.h"
-
+using namespace std;
 
 int main(int argc, char* argv[])
 {
@@ -25,7 +26,7 @@ int main(int argc, char* argv[])
 	}
 	case 2: // если count = 2
 	{
-		cout << minus(a, b) << endl; // выполнить вычитание
+		cout << minus2(a, b) << endl; // выполнить вычитание
 		break;
 	}
 	case 3: // если count = 3
