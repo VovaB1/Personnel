@@ -5,6 +5,7 @@
 #include <iostream>
 #include "sum.h"
 #include "minus.h"
+#include "multiply.h"
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -31,7 +32,7 @@ int main(int argc, char* argv[])
 	}
 	case 3: // если count = 3
 	{
-		cout << "In development" << endl; // выполнить умножение
+		cout << multi(a, b) << endl; // выполнить умножение
 		break;
 	}
 	case 4: // если count = 4
